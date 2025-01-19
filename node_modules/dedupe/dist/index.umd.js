@@ -1,0 +1,1 @@
+!function(e,n){"object"==typeof exports&&"undefined"!=typeof module?module.exports=n():"function"==typeof define&&define.amd?define(n):(e||self).dedupe=n()}(this,function(){return function(e,n){void 0===n&&(n=JSON.stringify);for(var o=[],f={},t=0;t<e.length;t++){var i=e[t],d=n(i);f[d]||(o.push(i),f[d]=!0)}return o}});
